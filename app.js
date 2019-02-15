@@ -10,7 +10,8 @@ const bullshit = [
   "they called in about a billy rueben meter",
   "bridge the gap and delineate",
   "(micro)scopes aren't on the contract",
-  "we need to hire some temps to exact match"
+  "we need to hire some temps to exact match",
+  "there's leftover food in the lunch box"
 ];
 
 function newQuote() {
