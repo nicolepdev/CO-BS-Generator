@@ -1,0 +1,110 @@
+/* GLOBAL SETTINGS AND BASE STYLES */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.7rem;
+  color: #a3a3a3;
+  background-image: url("tie.jpeg");
+  background-repeat: no-repeat;
+  background-size: stretch;
+  background-position: top;
+}
+
+/* HEADINGS */
+
+h1 {
+  font-size: 3rem;
+  color: #eef4ed;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1rem;
+}
+
+/* QUOTE DISPLAY */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 2rem;
+  width: 70%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #797979;
+}
+#quoteDisplay {
+  margin: 1rem auto;
+  font-weight: 300;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.0625rem;
+}
+
+button {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin: 2rem auto 2rem auto;
+  background-color: #613f75;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  outline: none;
+}
+
+button:hover {
+  background-color: #9c88a7;
+  transition: all ease-in 0.2s;
+}
+
+hr {
+  margin: 0 auto;
+  text-align: center;
+  margin: 2rem;
+  border: 1px solid #d3d3d3;
+}
+
+h1 {
+  color: #613f75;
+  letter-spacing: 0.0625rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.instructions {
+  text-transform: none;
+  font-size: 1.9rem;
+}
