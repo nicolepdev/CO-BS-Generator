@@ -11,7 +11,14 @@ const bullshit = [
   "bridge the gap and delineate",
   "(micro)scopes aren't on the contract",
   "we need to hire some temps to exact match",
-  "there's leftover food in the lunch box"
+  "there's leftover food in the lunch box",
+  "you need to submit a ticket",
+  "to piggyback on that, let's circle back",
+  "what's your cadence?",
+  "let's take this offline as a sidebar",
+  "we want to make sure we maintain continuity",
+  "that will be part of the next sprint",
+  "I'll echo that sentiment"
 ];
 
 function newQuote() {
