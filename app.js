@@ -18,7 +18,9 @@ const bullshit = [
   "let's take this offline as a sidebar",
   "we want to make sure we maintain continuity",
   "that will be part of the next sprint",
-  "I'll echo that sentiment"
+  "I'll echo that sentiment",
+  "that's outside of my wheelhouse",
+  "anything out of Chad's mouth"
 ];
 
 function newQuote() {
